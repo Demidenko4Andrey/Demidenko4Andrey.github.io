@@ -1,0 +1,207 @@
+header {
+
+    border-bottom: 1px solid darkgray;
+    background-color: #f8f8f8;
+    margin-top: 0;
+}
+header div {
+    display: inline-block;
+    color: mediumblue;
+    border-right: 1px solid black;
+    padding-right: 6px;
+}
+header div:nth-child(11) {
+    border-right: none;
+}
+header div:nth-child(1) {
+    border-right: none;
+}
+a {
+    text-decoration: none;
+}
+.right_enter {
+    border-right: none;
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo {
+    height: 15px;
+}
+.enter {
+    border-right: none;
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+.info {
+    background-color: #f8f8f8;
+    margin-top: 5px;
+}
+.text {
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    float: left;
+    width: 610px;
+    margin-left: 525px;
+}
+.clearfix:after {
+    content:"";
+    clear: both;
+    display: table;
+}
+.buttons {
+    margin-left: 25px;
+
+}
+.button {
+    display: inline-block;
+    margin-right: 0;
+    margin-top: 75px;
+}
+input {
+    padding: 8px 18px 8px 18px;
+}
+.creat {
+    margin-left: 65px;
+}
+.input {
+    margin-left: 35px;
+}
+.get {
+    margin-left: -15px;
+}
+.green_flag {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 300px;
+}
+.advertising {
+    margin-left: 525px;
+}
+.express {
+    background-color: #f8f8f8;;
+    margin-top: -5px;
+}
+.letter {
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    width: 610px;
+    margin-left: 525px;
+}
+.send_form {
+    display: none;
+    margin-left: 525px;
+    margin-top: 10px;
+}
+.letter_mail:focus {
+    display: block;
+}
+.register {
+    background: lightgray;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    float: right;
+    width: 830px;
+    margin-top: -147px;
+    margin-right: -10px;
+
+}
+.letter_mail {
+    margin-left: 525px;
+    margin-top: -25px;
+}
+.form {
+    display: inline-block;
+    margin-top: 5px;
+}
+.creat_mail {
+    margin-left: 25px;
+}
+.global_news {
+    display: inline-block;
+}
+
+.news {
+    margin-left: 525px;
+    margin-top: 35px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.ch_news {
+     text-decoration: dashed;
+     color: gray;
+     padding-left: 10px;
+ }
+.ch_news:nth-child(8) {
+    padding-left: 95px;
+}
+.ch_news:focus {
+     color: darkgray;
+     border-bottom: 1px solid darkgray;
+     padding-bottom: 5px
+ }
+.ch_news:focus:nth-child(8) {
+    border-bottom: none;
+}
+.list_news {
+    display: none;
+    position: absolute;
+    list-style: none;
+    color: darkgray;
+    border: 1px solid darkgray;
+    padding: 5px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 505px;
+    text-decoration: underline;
+}
+a:focus+ul {
+    display: block;
+}
+.weather {
+    padding-left: 35px;
+}
+.products_ex {
+    margin-bottom: 5px;
+    width: 272px;
+    margin-left: 1200px;
+}
+.products {
+    display: block;
+    margin-bottom: 5px;
+    background: lightgrey;
+    padding: 5px;
+}
+.products_potion {
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+
+}
+.products_potion:hover a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.products_ex_all {
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: grey;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.other_options {
+    width: 320px;
+    margin-top: 10px;
+}
+.column2 {
+    padding-left: 25px;
+  }
+.column22 {
+    padding-left: 10px;
+}
